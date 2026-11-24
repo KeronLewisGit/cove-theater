@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Showtimes and ticket prices | Cove Movie Theater, Ocho Rios</title>
+<meta name="description" content="This week's films, dates, times and ticket prices at Cove Movie Theater, Island Village, Ocho Rios.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#07051c">
+<link rel="icon" href="assets/cove-logo.png">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preconnect" href="https://i.ytimg.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="util"><div class="wrap">
+  <span class="addr">Island Village, Main Street, Ocho Rios</span>
+  <span class="right"><span id="next-chip"></span><a href="https://wa.me/18764728044">WhatsApp or call 1 876-472-8044</a></span>
+</div></div>
+<header class="site"><div class="wrap">
+  <a class="brand" href="index.html"><img src="assets/cove-logo.png" alt="" width="54" height="54"><div><b>Cove Movie Theater</b><span>Ocho Rios</span></div></a>
+  <button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="nav">☰</button>
+  <nav class="main" id="nav" aria-label="Main"><a href="index.html">Home</a><a href="showtimes.html" aria-current="page">Showtimes &amp; prices</a><a href="visit.html">Visit &amp; contact</a></nav>
+  <a class="btn red" href="showtimes.html">Today's showtimes</a>
+</div></header>
+<main id="main">
+<section class="pagehero dark"><div class="wrap">
+  <span class="kicker">Now showing · <span data-week></span></span>
+  <h1 data-split>Showtimes and <span class="tix">prices</span></h1>
+  <p class="lede">Pick a day to see every film and time. All shows are <span data-price></span>.</p>
+</div></section>
+<div class="ticker" aria-hidden="true"><div class="track"></div></div>
+
+<section class="band"><div class="wrap">
+  <div class="head"><div><span class="kicker">Choose a day</span><h2 id="sched-title" aria-live="polite">This week</h2></div></div>
+  <div class="days" id="days" role="group" aria-label="Days this week"></div>
+  <div class="tks" id="sched"></div>
+  <p class="note">Times are Jamaica time. To ask about a film or a group visit, <a href="https://wa.me/18764728044"><b>WhatsApp 1 876-472-8044</b></a>.</p>
+</div></section>
+
+<section class="band cream"><div class="wrap">
+  <div class="head" data-r><div><span class="kicker">The week at a glance</span><h2>Every film, every day</h2></div></div>
+  <div class="gridwrap" data-r tabindex="0" role="region" aria-label="Showtimes for the week, scrolls sideways on small screens"><table class="week" id="weekgrid"></table></div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="head" data-r><div><span class="kicker">Good to know</span><h2>Tickets and ratings</h2></div></div>
+  <div class="facts" data-r>
+    <div><div class="n" data-price></div><h3>Every show, every seat</h3><p>One price for all films and all show times this week.</p></div>
+    <div><div class="n">120</div><h3>Seats in the house</h3><p>One auditorium, one big screen, every seat facing it.</p></div>
+    <div><div class="n">U · T 16 · NR</div><h3>Film ratings</h3><p>Each film's rating is shown beside its title, so you can choose what suits the family.</p></div>
+  </div>
+</div></section>
+
+<section class="band navy"><div class="wrap split">
+  <div data-r><span class="kicker">Before the film</span><h2>Dinner is at the <span class="tix">café.</span></h2><p class="lede">Chicken wraps, wholesome meals, popcorn and hot dogs at Cove Café.</p></div>
+  <div class="acts" data-r style="--d:120ms;justify-content:flex-end"><a class="btn" href="index.html#cafe">See Cove Café</a><a class="btn ghost" href="visit.html">Get directions</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <p class="outro" data-r>See you at the <span class="tix">movies.</span></p>
+  <div class="cols">
+    <div><a class="brand" href="index.html"><img src="assets/cove-logo.png" alt="" width="54" height="54"><div><b>Cove Movie Theater</b><span>Cove Entertainment Ltd</span></div></a>
+      <p style="margin-top:16px;max-width:38ch">The movie theater where culture meets entertainment. 120 seats and one big screen in Island Village, Ocho Rios.</p></div>
+    <div><h4>The theater</h4><a href="showtimes.html">Showtimes &amp; prices</a><a href="index.html#cafe">Cove Café</a><a href="visit.html#groups">School and group visits</a><a href="visit.html">Find us</a></div>
+    <div><h4>Talk to us</h4><a href="https://wa.me/18764728044">WhatsApp 1 876-472-8044</a><a href="tel:+18764728044">Call the theater</a><a href="https://www.instagram.com/cove.movies/">Instagram @cove.movies</a></div>
+  </div>
+  <div class="legal"><span>© 2026 Cove Entertainment Ltd. Island Village, Ocho Rios, St Ann.</span><span>Website preview by Code Canvas Consultants Ltd. Trailers play from the studios' official YouTube channels.</span></div>
+</div></footer>
+<div class="preview-flag"><span><b>Preview</b> · built for Cove Entertainment by Code Canvas</span><button type="button" aria-label="Hide this note">×</button></div>
+<button class="reel" type="button" aria-label="Back to top"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#12101f"/><circle cx="20" cy="20" r="3" fill="#ffc43d"/><g fill="#ffc43d"><circle cx="20" cy="9" r="4.6"/><circle cx="20" cy="31" r="4.6"/><circle cx="9" cy="20" r="4.6"/><circle cx="31" cy="20" r="4.6"/></g></svg></button>
+<div class="bar"><a href="showtimes.html">Today's showtimes</a><a href="https://wa.me/18764728044">WhatsApp us</a></div>
+<script src="assets/site.js"></script>
+</body>
+</html>
